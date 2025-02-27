@@ -23,11 +23,14 @@ struct ContentView: View {
             Text("score:  \(skor)")
                 .font(.largeTitle)
                 .padding()
+                .foregroundStyle(.primary)
             Button("Zarları at"){
                 randomSayi()
                 skorHesaplama()
             }.buttonStyle(.borderedProminent).font(.largeTitle)
-        }
+            
+        }.frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color(.systemBackground))
     }
     
     func randomSayi() {
