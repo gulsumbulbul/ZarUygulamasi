@@ -11,7 +11,7 @@ Bu proje, SwiftUI kullanarak geliştirilen basit bir zar atma uygulamasıdır. U
 
 ## 📸 Ekran Görüntüsü
 
-![Zar Uygulaması](Screenshots/ZarUygulamasi.png)
+![Zar Uygulaması](Screenshots:ZarUygulamasi.png)
 
 ## 🛠️ Kurulum
 
